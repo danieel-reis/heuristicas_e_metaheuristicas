@@ -1,8 +1,8 @@
-# Heurísticas e Metaheurísticas aplicadas TSP
+# Heurísticas e Metaheurísticas aplicadas ao TSP
 
 * Parte 1 (Heurística Construtiva): Heurística construtiva do vizinho mais próximo. Inicia sempre pelo vértice 0 e move-se para o vizinho com menor distância que ainda não foi visitado.
 
-* Parte 2 (VND): Utilizando a solução inicial do vizinho mais próximo, realiza uma busca por melhores soluções usando a busca 2-opt swap. Lmax = 500
+* Parte 2 (VND): Utilizando a solução inicial do vizinho mais próximo, realiza uma busca por melhores soluções usando a busca 2-opt swap. Lmax = 500.
 
 * Parte 3 (Tabu Search): Gera uma solução inicial através da heurística do vizinho mais próximo. Posteriormente utiliza 2-OPT marcando os vértices no tabu. Executa 1 iteração mantendo em 10000 soluções na memória.
 
